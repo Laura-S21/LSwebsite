@@ -1,0 +1,54 @@
+body {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: #0f1329;
+}
+
+p {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: "Exo", sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Exo", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: 100px;
+}
+.header__links {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.header__link:hover {
+  text-decoration: underline;
+}
+.header__underline {
+  height: 2px;
+  width: 100vw;
+  align-self: center;
+  background-color: #6299ea;
+}
+
+/*# sourceMappingURL=main.css.map */

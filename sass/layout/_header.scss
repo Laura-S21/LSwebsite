@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__logo {
+        height: 100px;
+    }
+
+    &__links{
+        font-family: $font-text;
+        font-size: 20px;
+        color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    &__link:hover {
+        text-decoration: underline;
+    }
+
+    &__underline {
+        height: 2px;
+        width: 100vw;
+        align-self: center;
+        background-color: $color-tertiary;
+    }
+}

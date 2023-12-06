@@ -1,0 +1,23 @@
+{
+  "name": "lswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laura-S21/LSwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laura-S21/LSwebsite/issues"
+  },
+  "homepage": "https://github.com/Laura-S21/LSwebsite#readme",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
