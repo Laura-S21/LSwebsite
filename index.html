@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&family=PT+Sans&family=Syne:wght@700&display=swap" rel="stylesheet">
   <script src="script.js"></script>
 </head>
 <body>
@@ -25,20 +25,40 @@
   </header>
   <main>
     <section class="about-section">
-      <div class="about-section__">
-        <img src="assets/LOGO1.png" alt="logo Laura Simonnet"/>
-        <h1>Laura Simonnet</h1>
-        <p>Intégratrice web</p>
-        <p>About me</p>
+      <div class="about-section__wrapper">
+      <img src="assets/LOGO1.png" alt="logo Laura Simonnet" class="about-section__logo"/>
+        <h1 class="about-section__name">Laura Simonnet</h1>
+        <p class="about-section__title">Intégratrice web</p>
+        <p class="about-section__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nesciunt dicta, ipsam eum minus reiciendis est quo deserunt aliquid voluptatem? Voluptate neque est tempora quae nihil facere corporis rem. Eaque!</p>
       </div>
     </section>
     <section class="web-section">
-      <h2>Portfolio Web</h2>
-      <div>
-        <p>Skills</p>
+      <h2 class="web-section__title">Portfolio Web</h2>
+      <div class="web-section__skills">
+        <div class="web-section__skills1">
+          <p>HTML/CSS</p>
+          <p>SASS</p>
+          <p>JAVASCRIPT</p>
+          <p>REACT</p>
+        </div>
+        <div class="web-section__skills2">
+          <p>VISUAL STUDIO</p>
+          <p>GIT/GITHUB</p>
+        </div>
       </div>
-      <div>
-        <p>Works</p>
+      <div class="web-section__works">
+        <div class="web-section__work">
+          <img src="assets/KASA.jpg"/>
+        </div>
+        <div class="web-section__work">
+          <img src="assets/OHMYFOOD.jpg"/>
+        </div>
+        <div class="web-section__work">
+          <p class="web-section__SB-title">Sophie Bluel <span>Architecte d'intérieur</span></p>
+        </div>
+        <div class="web-section__work">
+          <p class="web-section__coming">Coming soon !</p>
+        </div>
       </div>
     </section>
     <section class="graph-section">
